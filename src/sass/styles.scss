@@ -1,0 +1,57 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.banner {
+    background-image: url(../../public/assets/images/Oceanografico.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+}
+
+.interesting-cities {
+    padding: 8px;
+    li {
+        margin-top: 24px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+main {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.avatars {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 24px;
+    .avatar {
+        width: 150px;
+        height: 150px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+footer {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+}
